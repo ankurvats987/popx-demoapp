@@ -1,12 +1,55 @@
-# React + Vite
+# PopX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PopX is a modern React-based web application that provides a simple and clean user interface for user registration and login.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ Built with **React**
+- 🧭 Routing via **React Router DOM**
+- 🎨 Clean UI with **CSS Modules** and global styles
+- ✅ Form layout for **Sign In** and **Sign Up**
+- 📱 Mobile-first responsive design
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/popx.git
+cd popx
+npm install
+````
+
+## ▶️ Running the App
+
+```bash
+npm run dev
+```
+
+If using Create React App, use:
+
+```bash
+npm start
+```
+
+## 🛠️ Tech Stack
+
+* React
+* React Router DOM
+* CSS Modules
+* Google Fonts (Rubik)
+
+## 🧪 Folder Breakdown
+
+| Folder/File     | Purpose                                 |
+| --------------- | --------------------------------------- |
+| `/pages`        | Contains Home, SignIn, and SignUp views |
+| `/styles`       | Modular and global styling              |
+| `App.jsx`       | Application routing                     |
+| `variables.css` | CSS custom properties (colors, fonts)   |
+
+## 📷 Preview
+
+https://popx-demoapp.netlify.app/
+
+## 📄 License
+
+This project is licensed for educational and demonstration purposes.
